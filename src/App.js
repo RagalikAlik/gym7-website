@@ -1,8 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './pictures/logo.svg';
+import './style/App.css';
+import {HeaderTemplate} from './pages/headerTemplate';
+
 
 function App() {
   return (
+    <><HeaderTemplate />
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,7 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div></>
   );
 }
 
