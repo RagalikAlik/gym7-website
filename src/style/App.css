@@ -101,3 +101,84 @@ nav > .nav-items, .nav-items > .nav-buttons{
 .video-fragment{
   margin-left: 20%;
 }
+
+#pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-item {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.buy-btn {
+  padding: 10px 20px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.pricing-row {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .pricing-row {
+    flex-direction: row;
+  }
+  
+  .pricing-row .pricing-item {
+    margin: 0 10px;
+  }
+}
+
+
+.gym-description {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gym-image {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.gym-info {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.gym-features {
+  text-align: left;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.gym-features li {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.gym-image {
+  float: right;
+  width: 40%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
