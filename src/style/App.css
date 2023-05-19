@@ -69,6 +69,7 @@ nav > .nav-items, .nav-items > .nav-buttons{
   font-size: 16px;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .dropdown {
@@ -178,7 +179,63 @@ nav > .nav-items, .nav-items > .nav-buttons{
 }
 
 
+footer{
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+}
+
+footer > .images{
+  margin-left: 40%;
+}
+
+footer div ul li a{
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.contact-body div .h1-title{
+  margin-top: 6%;
+  text-align: center;
+}
+
+.contact-body div h1, h3{
+  text-align: center;
+}
+
+.contact-body div .work-time{
+  text-align: center;
+  font-weight: bold;
+  color: #555;
+}
 
 
+.slideshow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.slideshow-button {
+  background-color: #f1f1f1;
+  border: none;
+  color: #333;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
+.slideshow-image {
+  max-width: 40%;
+  height: auto;
+}
+
+.slideShow-container{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}

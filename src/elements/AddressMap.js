@@ -4,11 +4,11 @@ import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps';
 
 export function AddressMap(){
     const mapState = {
-        center: [53.891588, 27.532381], // Координаты г. Минск
-        zoom: 13 // Масштаб карты
+        center: [53.917989, 27.435670], 
+        zoom: 15 
       };
     
-      const placemarkGeometry = [53.917989, 27.435670]; // Координаты улицы Колесникова 3
+      const placemarkGeometry = [53.917989, 27.435670];
     
       return (
         <YMaps>
