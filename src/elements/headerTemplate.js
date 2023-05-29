@@ -21,17 +21,20 @@ export function HeaderTemplate() {
                     <h1><Link to='/'>amogus</Link></h1>
                     <div class="nav-buttons">
                         <div class="dropdown">
+                            <Link to='/specials' class="dropbtn" >Акции</Link>
+                        </div>
+                        {/* <div class="dropdown">
                             <button class="dropbtn">Акции</button>
                             <div class="dropdown-content">
                                 <a href="#">Акции</a>
                                 <a href="#">абонемент с тренером - 100 руб.</a>
                             </div>
-                        </div>
+                        </div> */}
                         <div class="dropdown">
                             <Link to='/pricepage' class="dropbtn" >Стоимость</Link>
                         </div>
                         <div class="dropdown">
-                            <button type="button" class="dropbtn">Тренеры</button>
+                            <Link to='/trainers' class="dropbtn">Тренеры</Link>
                         </div>
                         <div class="dropdown">
                             <button type="button" class="dropbtn">Оплата</button>
