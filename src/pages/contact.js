@@ -1,4 +1,5 @@
 import { AddressMap } from "../elements/AddressMap";
+import { FeedbackForm } from "../elements/feedbackForm";
 import Slideshow from "../elements/slideShow";
 import '../style/App.css';
 import Contact_slide1 from "../pictures/Contact_slide1.jpg"
@@ -26,6 +27,7 @@ const ContactPage = () =>{
             <div className="slideShow-container">
                 <Slideshow images={images}/>
             </div>
+            <FeedbackForm></FeedbackForm>
 
             <AddressMap />
         </>
