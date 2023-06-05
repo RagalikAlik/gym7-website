@@ -1,14 +1,48 @@
 import '../style/App.css';
+import Rubec from "../pictures/TrainerRubec.png"
+import Sobol from "../pictures/TrainerSobol.png"
+import Surma from "../pictures/TrainerSurma.png"
+import Palych from "../pictures/TrainerPalych.png"
+import {TrainerCard} from "../elements/trainerCard"
 
 const Trainers = () =>{
-    
+    const trainers = [
+        {
+          name: 'Алексей Рубец',
+          photo: Rubec,
+          description: 'Наш лучший тренер по лёгкой атлетике. Обладает профессиональными навыками, имеет личную методику по правильному питанию.',
+        },
+        {
+        name: 'Соболевский Артём',
+        photo: Sobol,
+        description: 'Патриот своей страны. Перспективный, атлетичный тренер. Рекламное лицо энергетического напитка Gorilla',
+        },
+        {
+            name: 'Сурма Владимир',
+            photo: Surma,
+            description: 'Наш французкий тренер. Тренировал всех знаменитых бодибилдеров. Считает что после тренировки нужно перекусить сосиской из Соседей.',
+        },
+        {
+            name: 'Павлович Даниил',
+            photo: Palych,
+            description: 'Наш мексиканский тренер. Поднимает Toyota Prius одной рукой.',
+        },
+      ];
+
     return(
         <>    
             <body class="trainers-body">
                 <div>
                     <h1 class="h1-title">Наши тренеры</h1>
                     <div class="trainer-container">
-
+                    {trainers.map((trainer, index) => (
+                        <TrainerCard
+                            key={index}
+                            name={trainer.name}
+                            photo={trainer.photo}
+                            description={trainer.description}
+                        />
+                        ))}
                     </div>
                 </div>
 
