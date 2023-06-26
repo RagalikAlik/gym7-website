@@ -2,6 +2,7 @@ import { AddressMap } from "../elements/AddressMap";
 import {GradientHoverComponent} from "../elements/gradientHoverComponent"
 import {PriceList} from "../elements/priceList"
 import {PreviewImage} from "../elements/preview"
+import {Music} from "../elements/music";
 
 export function Home() {
     return (
@@ -25,7 +26,6 @@ export function Home() {
                 <PriceList></PriceList>
             </div>
             </div>
-
             <div>
                 <div class="gym-description">
                     <h2>GYM7 – второй автономный круглосуточный тренажерный зал в Минске</h2>
@@ -42,6 +42,7 @@ export function Home() {
                         <li>Продажа абонементов через интернет или терминалы, которые установлены в фитнес центре</li>
                         <li>Рядом бесплатный паркинг</li>
                     </ul>
+                    
                     <p class="gym-info">Подтягивайся в наш круглосуточный тренажерный зал GYM7 в Минске и займись своим телом и здоровьем – сейчас самое время начать!</p>
                 </div>
         </div><AddressMap /></>)

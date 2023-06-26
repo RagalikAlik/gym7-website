@@ -13,7 +13,7 @@ export function FooterTemplate(){
                 <li><a href="#">Цены</a></li>
                 <li><Link to='/contactpage'>Контакты</Link></li>
               </ul>
-            <p>&copy; 2023 Sports Gym. Все права защищены.</p>
+            <p>&copy; 2023 Gym7. Все права защищены.</p>
           </div>
           <div class="footer-info">
             <ul>

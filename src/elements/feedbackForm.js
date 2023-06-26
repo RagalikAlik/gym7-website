@@ -22,7 +22,7 @@ export function FeedbackForm(){
     return(
         <>
             <div class="feedback-form">
-                <h2>Обратная связь</h2>
+                <h2>Связь с компанией</h2>
                 <form ref={form} onSubmit={sendEmail}>
                     <label for="name">Имя:</label>
                     <input type="text" id="name" name="name" required/>

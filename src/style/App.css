@@ -64,7 +64,7 @@ html
 
 .nav-buttons{
   width: 60%;
-  margin-left: 60%;
+  margin-left: 45%;
   align-items: center;
 }
 
@@ -519,4 +519,8 @@ a{
 .trainer-description {
   font-size: 14px;
   color: #666;
+}
+
+.request-text{
+  margin-top: 6.5%;
 }
