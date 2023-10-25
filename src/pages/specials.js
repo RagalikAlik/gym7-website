@@ -16,19 +16,16 @@ export function SpecialsPage(){
                             <img src={Promo_image1} alt="Promotion Image" class="promotion-image"/>
                             <h3 class="promotion-title">Скидка 35%</h3>
                             <p class="promotion-description">Приведи друга и получи скидку 35% на месячный абонемент</p>
-                            {/* <button class="promotion-button">Узнать подробности</button> */}
                         </div>
                         <div class="promotion-card">
                             <img src={Promo_image2} alt="Promotion Image" class="promotion-image"/>
                             <h3 class="promotion-title">Бесплатное занятие</h3>
                             <p class="promotion-description">Получите бесплатное занятие на выбор при покупке абонемента на 3 месяца.</p>
-                            {/* <button class="promotion-button">Узнать подробности</button> */}
                         </div>
                         <div class="promotion-card">
                             <img src={Promo_image3} alt="Promotion Image" class="promotion-image"/>
                             <h3 class="promotion-title">Утренняя тренировка</h3>
                             <p class="promotion-description">Получите скидку 30% на все утренние тренировки, проводимые до 10:00 утра.</p>
-                            {/* <button class="promotion-button">Узнать подробности</button> */}
                         </div>                  
                 </div>
                 <div class="promo-container">
